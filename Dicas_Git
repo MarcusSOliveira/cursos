@@ -1,4 +1,44 @@
 # Crie um diretório e adicione em seguida o comando 
 ## git init
+
 # Depois de marcado adicione os arquivos que vocÊ deseja subir.  
 ## git add arquivo
+
+# Para comitar, basta digitar o comando 
+## git commit -m "Descrição"
+
+# Para recolocar o arquivo alterado também usa o comando
+## git add arquivo
+
+# Para visualizar o que foi alterado no commit, pegue o id do commit
+## git log 
+## git show e color o id alterado (1450a119094fc642d923ca004b94b325f5380f19)
+
+# O git log sem ponto nenhum exibe o último ponto da história
+
+# Para criar uma ramifição, você cria um branch
+## git branch diretório. ex git branch css/principal
+# Para selecionar a branch desejada.
+## git checkout css/principal
+
+# O comando touch cria um arquivo
+## touch principal.css
+
+# O comando git branch visualiza todas as branch
+
+# Para unir a branch com a master 
+## git merge css/principal
+
+# Para apontar o repositorio já criado.
+## git remote add origin https://github.com/MarcusSOliveira/cursos.git
+
+# Como é a primeira vez, precisa criar a branch master
+## git push -u origin master
+
+# Quando fizer o guit push colocar o usuário e senha
+## git push -u origin master
+
+# Para adicionar todos 
+## git add .
+
+## git 
