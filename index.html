@@ -1,0 +1,144 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino - 70-480</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div id="conteiner">
+        <section id="intro">
+            <header>    
+                <h1>Essa página foi construída para melhorar os meus conhecimentos Web - Textos e imagens aleatórias</h1>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.YGla0YYw_gDaMyzyrf1OJAHaD4&pid=Api&P=0&w=334&h=176" alt="">
+            </header>
+
+            <main>
+                <p>
+                    Indústria é uma atividade econômica que surgiu na Primeira Revolução Industrial, no fim do século <strong>XVIII</strong>  e
+                    início do século <b>XIX</b>, na Inglaterra, e que tem por finalidade transformar matéria-prima em produtos 
+                    comercializáveis, utilizando para isto força humana, máquinas e energia.
+                </p>
+            
+                <p class="bold">
+                    A Revolução Industrial, por sua vez, surgiu da transição do capitalismo comercial para o capitalismo 
+                    industrial da segunda metade do século XVIII.[5] Esta Primeira foi baseada em vapor,[6] carvão e ferro, 
+                    mas a partir de 1860 surge a Segunda Revolução Industrial, empregando aço, energia elétrica e produtos químicos, 
+                    e simultaneamente o capitalismo industrial se tornou capitalismo financeiro.[5][6] A partir de 1970 ocorre a 
+                    Terceira Revolução Industrial, com o desenvolvimento da informática.   
+                </p>    
+            </main>
+
+           <section id="buttons"> 
+                <button onclick="onOff()">Adicionar</button>
+                <button class="bold">Listar</button>
+           </section>     
+
+            <footer>
+                <p id="footer"  >Created by  <a href="https://www.linkedin.com/in/marcussoliveira/">Marcus</a> - Curso web <a href="https://www.youtube.com/watch?v=3XnK3UPP8fw&list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka&index=1">Maykbrito</a> .  </p>
+            </footer>
+
+        </section> 
+
+        <section id="last-views">
+            <div class="views">
+                <img src="https://image.flaticon.com/icons/svg/1584/1584961.svg" 
+                alt="Imagem qualquer">
+
+                <div class="content">
+                    <h3>Estudos - Informática</h3>
+                    <p>Front-end</p>
+                    <div class="descripton">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corporis incidunt dolores numquam accusantium vel id, maxime consequatur eveniet harum deserunt accusamus nemo, iure et unde porro deleniti reprehenderit fugiat!
+                    </div>
+                    <a href="#">Ir para o curso </a>
+                </div>
+            </div>
+
+            <div class="views">
+                <img src="https://image.flaticon.com/icons/svg/1016/1016526.svg" 
+                alt="Imagem qualquer">
+
+                <div class="content">
+                    <h3>Estudos - Ciencias</h3>
+                    <p>microrganismos</p>
+                    <div class="descripton">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corporis incidunt dolores numquam accusantium vel id, maxime consequatur eveniet harum deserunt accusamus nemo, iure et unde porro deleniti reprehenderit fugiat!
+                    </div>
+                    <a href="#">Ir para o curso </a>
+                </div>
+            </div>
+
+            <div class="views">
+                <img src="https://image.flaticon.com/icons/svg/1016/1016522.svg" 
+                alt="Imagem qualquer">
+
+                <div class="content">
+                    <h3>Estudos - Matemática</h3>
+                    <p>Geometria espacial</p>
+                    <div class="descripton">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corporis incidunt dolores numquam accusantium vel id, maxime consequatur eveniet harum deserunt accusamus nemo, iure et unde porro deleniti reprehenderit fugiat!
+                    </div>
+                    <a href="#">Ir para o curso </a>
+                </div>
+            </div>
+
+            <div class="views">
+                <img src="https://image.flaticon.com/icons/svg/1016/1016516.svg" 
+                alt="Imagem qualquer">
+
+                <div class="content">
+                    <h3>Estudos - Física</h3>
+                    <p>Buraco de minhoca </p>
+                    <div class="descripton">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corporis incidunt dolores numquam accusantium vel id, maxime consequatur eveniet harum deserunt accusamus nemo, iure et unde porro deleniti reprehenderit fugiat!
+                    </div>
+                    <a href="#">Ir para o curso </a>
+                </div>
+            </div>
+
+        </section >
+
+    </div>
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Novo curso</h1>
+            <form action="">
+                <label for="titulo">Nome do curso</label>
+                <input type="text" name="titulo" id="titulo">
+                <br/>
+
+                <label for="categoria">Categoria do curso</label>
+                <input type="text" name="categoria" id="categoria">
+                <br/>
+
+                <label for="descricao">Descrição do curso</label>
+                <textarea name="descricao" id="descricao"></textarea>
+                <br/>
+
+                <label for="link">Link do curso</label>
+                <input type="url" name="link" id="link">
+                <br/>
+
+                <label for="data">Data do curso</label>
+                <input type="date" name="data" id="data">
+                <br/>
+
+                <button id="back" onclick="onOff()" >Voltar</button>                
+                <button id="save">Salvar</button>
+
+            </form>
+        </div>
+    </div>
+                
+</body>
+
+
+</html>
