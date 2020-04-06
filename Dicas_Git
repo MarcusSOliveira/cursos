@@ -41,4 +41,5 @@
 # Para adicionar todos 
 ## git add .
 
-## git 
+# GIT CLONE é para pegar um projeto já criado
+## git clone https://github.com/xpto/nome-do-repositorio.git
