@@ -18,6 +18,7 @@
 
 # Para criar uma ramifição, você cria um branch
 ## git branch diretório. ex git branch css/principal
+
 # Para selecionar a branch desejada.
 ## git checkout css/principal
 
@@ -25,6 +26,7 @@
 ## touch principal.css
 
 # O comando git branch visualiza todas as branch
+## git branch css/principal
 
 # Para unir a branch com a master 
 ## git merge css/principal
@@ -43,3 +45,6 @@
 
 # GIT CLONE é para pegar um projeto já criado
 ## git clone https://github.com/xpto/nome-do-repositorio.git
+
+# Para atualizar o repositorio
+## git pull .
