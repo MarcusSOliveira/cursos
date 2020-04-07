@@ -48,3 +48,10 @@
 
 # Para atualizar o repositorio
 ## git pull .
+
+# Configurando a identidade.
+## git config --global user.name "Seu nome"
+## git config --global user.email "Seu email"
+
+# Arquivo de configuração do git
+## C:\Users\mso10\.gitconfig
